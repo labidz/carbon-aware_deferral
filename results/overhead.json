@@ -1,0 +1,52 @@
+{
+ "feature_cpu_ms_per_capture": 2.2134250333333347,
+ "train_cpu_s_one_model_607118_rows": 15.071921847999999,
+ "gbm_inference_cpu_ms_per_capture_per_model": 0.9352088266666669,
+ "model_trees": 120,
+ "gbm_model_bytes": 375870,
+ "dl_A": {
+  "params": 65507,
+  "inference_ms_per_capture": 1.806595230102539,
+  "train_seconds": 96.08752703666687
+ },
+ "dl_B": {
+  "params": 65251,
+  "inference_ms_per_capture": 1.713840866088867,
+  "train_seconds": 88.95884323120117
+ },
+ "walk_forward_main_blocks": 12,
+ "assumptions": {
+  "cpu_watts_per_core_low_mid_high": [
+   10,
+   20,
+   40
+  ],
+  "grid_g_per_kwh": 150,
+  "refresh_per_year": 17520
+ },
+ "per_refresh_cpu_s": 0.005954260340000003,
+ "train_cpu_s_year": 723.4522487039999,
+ "energy_estimate": {
+  "10W_per_core": {
+   "energy_Wh_per_year": 2.2993635829466665,
+   "gCO2_per_year": 0.344904537442,
+   "energy_Wh_per_refresh": 1.6539612055555566e-05
+  },
+  "20W_per_core": {
+   "energy_Wh_per_year": 4.598727165893333,
+   "gCO2_per_year": 0.689809074884,
+   "energy_Wh_per_refresh": 3.307922411111113e-05
+  },
+  "40W_per_core": {
+   "energy_Wh_per_year": 9.197454331786666,
+   "gCO2_per_year": 1.379618149768,
+   "energy_Wh_per_refresh": 6.615844822222226e-05
+  }
+ },
+ "breakeven": {
+  "job_kwh": 15.36,
+  "extra_saving_g_per_job": 16.822271999999998,
+  "jobs_per_year_to_repay_overhead_at_20W": 0.04100570213607294
+ },
+ "rss_mb_peak": 1214.19921875
+}

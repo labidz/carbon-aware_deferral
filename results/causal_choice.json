@@ -1,0 +1,101 @@
+{
+ "2023-07-01": {
+  "best": "D_shallow",
+  "val_mae": {
+   "A_default": 27.97407773543224,
+   "B_regularised": 27.988398470475552,
+   "C_flexible": 27.770105186298053,
+   "D_shallow": 27.141500622305855
+  }
+ },
+ "2023-08-01": {
+  "best": "C_flexible",
+  "val_mae": {
+   "A_default": 19.319593472696948,
+   "B_regularised": 19.287346613200224,
+   "C_flexible": 19.196419042012238,
+   "D_shallow": 19.336466337779843
+  }
+ },
+ "2023-09-01": {
+  "best": "B_regularised",
+  "val_mae": {
+   "A_default": 21.208503619018323,
+   "B_regularised": 21.075381312297928,
+   "C_flexible": 21.316769830243416,
+   "D_shallow": 21.11219525653248
+  }
+ },
+ "2023-10-01": {
+  "best": "B_regularised",
+  "val_mae": {
+   "A_default": 24.31249605401831,
+   "B_regularised": 24.305823946256762,
+   "C_flexible": 24.672374339564303,
+   "D_shallow": 24.355555721997252
+  }
+ },
+ "2023-11-01": {
+  "best": "C_flexible",
+  "val_mae": {
+   "A_default": 21.02809866985119,
+   "B_regularised": 21.14356402840747,
+   "C_flexible": 20.566845788478478,
+   "D_shallow": 21.220016442482937
+  }
+ },
+ "2023-12-01": {
+  "best": "C_flexible",
+  "val_mae": {
+   "A_default": 20.393412324239993,
+   "B_regularised": 20.276752647434563,
+   "C_flexible": 20.25034124454805,
+   "D_shallow": 20.56759200428427
+  }
+ },
+ "2024-01-01": {
+  "best": "D_shallow",
+  "val_mae": {
+   "A_default": 23.723305369255858,
+   "B_regularised": 23.027161449031304,
+   "C_flexible": 24.073983657827558,
+   "D_shallow": 22.870161726547003
+  }
+ },
+ "2026-07-01": {
+  "best": "B_regularised",
+  "val_mae": {
+   "A_default": 23.761405121907544,
+   "B_regularised": 23.454223634502874,
+   "C_flexible": 24.115956623843744,
+   "D_shallow": 23.5481995294814
+  }
+ },
+ "2026-08-01": {
+  "best": "D_shallow",
+  "val_mae": {
+   "A_default": 21.913421602197605,
+   "B_regularised": 21.767210016933447,
+   "C_flexible": 21.958944947636784,
+   "D_shallow": 21.524309509780874
+  }
+ },
+ "2026-09-01": {
+  "best": "B_regularised",
+  "val_mae": {
+   "A_default": 22.56831968375919,
+   "B_regularised": 22.529768623427483,
+   "C_flexible": 22.73289991625609,
+   "D_shallow": 22.69872249926745
+  }
+ },
+ "2026-10-01": {
+  "best": "A_default",
+  "val_mae": {
+   "A_default": 20.27795547650022,
+   "B_regularised": 20.282290137051614,
+   "C_flexible": 20.40554205144176,
+   "D_shallow": 20.637743821958527
+  }
+ }
+}

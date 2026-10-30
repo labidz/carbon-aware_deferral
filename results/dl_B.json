@@ -1,0 +1,9 @@
+{
+ "mode": "B",
+ "params": 65251,
+ "val_mae_best": 24.197115898132324,
+ "test_mae_q50": 23.690675735473633,
+ "test_mae_neso": 25.94581413269043,
+ "inference_seconds_per_sample": 1.7852509021759033e-05,
+ "train_seconds": 88.95884323120117
+}

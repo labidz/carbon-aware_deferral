@@ -1,0 +1,177 @@
+{
+ "all_gpu_jobs": {
+  "gpu_hours_total": 7107958.767222222,
+  "n_jobs": 464632,
+  "bins": [
+   {
+    "max_hours": 0.5,
+    "slots": 1,
+    "gpu_hour_share": 0.035385599034247386,
+    "job_share": 0.9212495049845899
+   },
+   {
+    "max_hours": 1,
+    "slots": 2,
+    "gpu_hour_share": 0.013158109491787686,
+    "job_share": 0.031489436801597825
+   },
+   {
+    "max_hours": 2,
+    "slots": 4,
+    "gpu_hour_share": 0.01617927283103938,
+    "job_share": 0.020043819624993544
+   },
+   {
+    "max_hours": 4,
+    "slots": 8,
+    "gpu_hour_share": 0.02361774670055199,
+    "job_share": 0.010718159747929544
+   },
+   {
+    "max_hours": 8,
+    "slots": 16,
+    "gpu_hour_share": 0.052411714769356785,
+    "job_share": 0.007433840114327037
+   },
+   {
+    "max_hours": 12,
+    "slots": 24,
+    "gpu_hour_share": 0.05263830345793819,
+    "job_share": 0.002535339795795382
+   },
+   {
+    "max_hours": null,
+    "slots": null,
+    "gpu_hour_share": 0.8066092537150786,
+    "job_share": 0.006529898930766715
+   }
+  ]
+ },
+ "completed_only": {
+  "gpu_hours_total": 1658299.2658333334,
+  "n_jobs": 218140,
+  "bins": [
+   {
+    "max_hours": 0.5,
+    "slots": 1,
+    "gpu_hour_share": 0.05594585483542288,
+    "job_share": 0.8914641973044833
+   },
+   {
+    "max_hours": 1,
+    "slots": 2,
+    "gpu_hour_share": 0.020382468470197753,
+    "job_share": 0.05227835335105895
+   },
+   {
+    "max_hours": 2,
+    "slots": 4,
+    "gpu_hour_share": 0.023034325962954617,
+    "job_share": 0.03130558357018429
+   },
+   {
+    "max_hours": 4,
+    "slots": 8,
+    "gpu_hour_share": 0.030676016951213893,
+    "job_share": 0.011345924635555149
+   },
+   {
+    "max_hours": 8,
+    "slots": 16,
+    "gpu_hour_share": 0.07254875152370739,
+    "job_share": 0.0074264233978179155
+   },
+   {
+    "max_hours": 12,
+    "slots": 24,
+    "gpu_hour_share": 0.051941042747957404,
+    "job_share": 0.0021683322636838727
+   },
+   {
+    "max_hours": null,
+    "slots": null,
+    "gpu_hour_share": 0.745471539508546,
+    "job_share": 0.0040111854772164664
+   }
+  ]
+ },
+ "by_type": [
+  {
+   "type": "Debug",
+   "jobs": 8820,
+   "gpu_hours": 119797.1,
+   "med_dur_s": 133.0,
+   "mean_gpus": 50.3
+  },
+  {
+   "type": "Eval",
+   "jobs": 306628,
+   "gpu_hours": 357398.7,
+   "med_dur_s": 133.0,
+   "mean_gpus": 2.7
+  },
+  {
+   "type": "MLLM",
+   "jobs": 13180,
+   "gpu_hours": 484702.7,
+   "med_dur_s": 258.0,
+   "mean_gpus": 8.6
+  },
+  {
+   "type": "Other",
+   "jobs": 64807,
+   "gpu_hours": 462214.8,
+   "med_dur_s": 89.0,
+   "mean_gpus": 4.9
+  },
+  {
+   "type": "Pretrain",
+   "jobs": 4600,
+   "gpu_hours": 5321239.8,
+   "med_dur_s": 336.0,
+   "mean_gpus": 283.0
+  },
+  {
+   "type": "SFT",
+   "jobs": 66597,
+   "gpu_hours": 362605.6,
+   "med_dur_s": 203.0,
+   "mean_gpus": 6.1
+  }
+ ],
+ "state_gpu_hour_share": {
+  "CANCELLED": 0.658,
+  "COMPLETED": 0.233,
+  "FAILED": 0.046,
+  "NODE_FAIL": 0.048,
+  "PREEMPTED": 0.007,
+  "RUNNING": 0.004,
+  "TIMEOUT": 0.004
+ },
+ "submit_hour_share": {
+  "0": 0.0264,
+  "1": 0.0441,
+  "2": 0.054,
+  "3": 0.0625,
+  "4": 0.0373,
+  "5": 0.0443,
+  "6": 0.0583,
+  "7": 0.0614,
+  "8": 0.0761,
+  "9": 0.0675,
+  "10": 0.0505,
+  "11": 0.0602,
+  "12": 0.0462,
+  "13": 0.0484,
+  "14": 0.0411,
+  "15": 0.0384,
+  "16": 0.0328,
+  "17": 0.0346,
+  "18": 0.0491,
+  "19": 0.0194,
+  "20": 0.0189,
+  "21": 0.0102,
+  "22": 0.0082,
+  "23": 0.0101
+ }
+}
